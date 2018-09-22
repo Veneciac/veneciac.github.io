@@ -1,0 +1,211 @@
+
+body{
+  background: #000;
+color: white;
+font-family: "IBM Plex Sans", sans-serif;
+}
+
+a{
+}
+
+img{
+width: 100%;
+}
+
+.home img{
+  width: 100%;
+
+}
+.model img{
+
+}
+ aside{
+   position: fixed;
+   background: #222;
+   top: 0%;
+   left: 0px;
+   width: 120px;
+   height: 100%;
+   overflow: none;
+   z-index: 1;
+   text-align: center;
+   padding: 0;
+
+ }
+
+ aside img{
+   margin-bottom: -3px;
+ }
+
+ .material-icons.md-36{
+   font-size: 40px;
+ }
+
+ aside a {
+   display: block;
+   padding: 15px 0;
+   color: white;
+   transition: all 0.35s;
+   text-transform: uppercase;
+   font-size: 0.75em;
+   letter-spacing: 2px;
+
+ }
+
+ aside p {
+   margin: 0;
+   padding: 0;
+
+ }
+
+ aside a:hover{
+   background: #000;
+
+ }
+ aside nav a:nth-child(2){
+   background: #000;
+  }
+
+  aside nav a:nth-child(2):hover{
+    background: #b2b2b2;
+    color: #222;
+
+  }
+
+  main , section, footer{
+    max-width: 1000px;
+    background: #000;
+    margin-left: 20%;
+    padding: ;
+
+  }
+  
+  header{
+    text-align: center;
+    letter-spacing: 2px;
+    
+
+  }
+  header h1{
+    font-weight: bold;
+    font-size: 2.7cm;
+    letter-spacing: 4px;
+    padding-bottom: 0%;
+  }
+  header h5{
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+    padding-top: 0;
+  }
+  .about, .model, .contact{
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .about h2, .contact h2, .model h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 50px 0 0 0 ;
+
+  }
+  .about p{
+    color: #b2b2b2;
+  }
+  .about span {
+    font-weight: 600;
+    color: white;
+  }
+  .model h3{
+    color: whitesmoke;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+  }
+  .model p{
+    font-size: 1cm;
+
+  }
+  .model img {
+    width: 400px;
+    height: 500px;
+  }
+
+  .row-halves{
+    display: flex;
+    justify-content:space-between;
+    margin:5px ;
+  }
+
+  .row-halves col {
+    width: 50%;
+  
+  }
+
+  .col {
+    
+    background: transparent;
+    color: #222;
+    padding: 10px;
+    padding-bottom: 0%
+    
+  }
+  label{
+    color: #b2b2b2;
+  }
+  form input [type= "text"],
+  select,
+  textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 2px solid #222;
+    background-color: transparent;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #b2b2b2;
+
+  }
+  #name, #email{
+    background: transparent;
+    border: 2px solid #222;
+  }
+  #submit{
+    background-color: #222;
+    border: none;
+    color:#b2b2b2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   }
+   footer{
+     border-top: #222 1px solid;
+
+   }
+   .top-bar a{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
+  }
+  .top-bar{
+    text-align: center;
+    border: #000;
+    background: #000;
+    width: 100%;
+
+  }
+  
+  .bottom-bar  p{
+    background: #000;
+    font-size: 0.75em;
+    text-align: center;
+  }
+  
